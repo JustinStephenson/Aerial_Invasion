@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1289840710446244}
+  m_IsPrefabParent: 1
+--- !u!1 &1289840710446244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4322474227408786}
+  - component: {fileID: 212315064899527630}
+  - component: {fileID: 68844817453732258}
+  - component: {fileID: 114029748833084182}
+  m_Layer: 10
+  m_Name: Hot Air Ballon Plus Score
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4322474227408786
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289840710446244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 7.5, y: 7.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68844817453732258
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289840710446244}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: 0.006998444, y: 0.3066681}
+  - {x: 0.024457296, y: 0.30327922}
+  - {x: 0.05803859, y: 0.2812495}
+  - {x: 0.12692083, y: 0.23898172}
+  - {x: 0.155955, y: 0.21389297}
+  - {x: 0.17008133, y: 0.19475521}
+  - {x: 0.18336208, y: 0.16778839}
+  - {x: 0.18260957, y: 0.08652493}
+  - {x: 0.17718837, y: 0.0792229}
+  - {x: 0.17564316, y: 0.05698999}
+  - {x: 0.16962993, y: 0.04822162}
+  - {x: 0.14398246, y: 0.020718195}
+  - {x: 0.13794938, y: 0.01300246}
+  - {x: 0.12895584, y: 0.008638478}
+  - {x: 0.110857144, y: -0.00023355485}
+  - {x: 0.057836153, y: -0.063945234}
+  - {x: 0.057658136, y: -0.067101546}
+  - {x: 0.061158754, y: -0.12695974}
+  - {x: 0.061130527, y: -0.14284459}
+  - {x: 0.052071128, y: -0.14271343}
+  - {x: 0.051956687, y: -0.1601527}
+  - {x: 0.005738068, y: -0.15999274}
+  - {x: -0.041731264, y: -0.16141675}
+  - {x: -0.0440595, y: -0.15373395}
+  - {x: -0.041446432, y: -0.14212221}
+  - {x: -0.053481802, y: -0.14446145}
+  - {x: -0.05381699, y: -0.12912093}
+  - {x: -0.05440242, y: -0.09242987}
+  - {x: -0.05238495, y: -0.0623429}
+  - {x: -0.0708313, y: -0.04237245}
+  - {x: -0.081243135, y: -0.030596195}
+  - {x: -0.093425244, y: -0.013712979}
+  - {x: -0.10013378, y: -0.007574368}
+  - {x: -0.108454645, y: 0.0016823134}
+  - {x: -0.124118045, y: 0.0090788845}
+  - {x: -0.13267976, y: 0.017447663}
+  - {x: -0.13642998, y: 0.029188126}
+  - {x: -0.1407575, y: 0.035867218}
+  - {x: -0.14767991, y: 0.036097657}
+  - {x: -0.16097489, y: 0.042874277}
+  - {x: -0.16679065, y: 0.07161716}
+  - {x: -0.17279842, y: 0.07711745}
+  - {x: -0.17371535, y: 0.1634986}
+  - {x: -0.1567168, y: 0.21120152}
+  - {x: -0.063722484, y: 0.2785499}
+  - {x: -0.0006027222, y: 0.3071129}
+  - {x: 0.023945874, y: 0.3017075}
+--- !u!114 &114029748833084182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289840710446244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f3b7986ac57fe0429e727c0171534ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1
+  hotAirBallon: 0
+  hotAirBallonPlusScore: 1
+  blimp: 0
+--- !u!212 &212315064899527630
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289840710446244}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 95db637f781a46b49b3dba645ba5153d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.35, y: 0.46}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
